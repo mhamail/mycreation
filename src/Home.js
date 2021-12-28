@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React from "react";
+// import { NavLink } from "react-router-dom";
 import HomeApi from './HomeApi'
 
 
@@ -9,10 +9,10 @@ const Home = () => {
             <h1 className="text-center text-light">Beginner Projects To Learn React Native</h1>
             <div className="container-fluid col-11 mx-auto pt-5">
                 {HomeApi.map((item) => {     //Map Function Call from Home Api
-                    const { id, image, title, li1, li2, li3, li4, li5, li6, btnl, btn2, btn } = item;
+                    const { id, image, alt, title, btnl, btn2, btn } = item;
                     return <div className="row mb-3" key={id}>
                         <div className="col-12 col-lg-6 imageSection">
-                            <img src={image} className="img-fluid img" />
+                            <img src='image' alt={alt} className="img-fluid img" />
                         </div>
                         <div className="col-12 col-lg-6 writeSection">
                             <h2>{title}</h2>

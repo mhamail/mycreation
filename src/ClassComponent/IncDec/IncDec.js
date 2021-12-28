@@ -18,12 +18,12 @@ class IncDec extends Component {
     }
     componentDidMount(){ 
         //this event call after the render function and call only the first time, mostly use for api
-        if(this.state.num==0){ 
+        if(this.state.num===0){ 
             alert('Number should be 1 or greater ')
         }
     }
     componentDidUpdate(){  //event call when performing any action
-        if(this.state.num==0){
+        if(this.state.num===0){
             alert('please increase the number')
         }
     }
