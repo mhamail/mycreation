@@ -20,7 +20,7 @@ const HomeApi=[
     },
     {
         id:2,
-        image:'images/incdecbtn.png',
+        image:'/images/incdecbtn.png',
         alt:'incdecbtn',
         title:'Icre-Decrement Project',
         details:[
@@ -35,7 +35,7 @@ const HomeApi=[
     },
     {
         id:3,
-        image:'images/todolist.png',
+        image:'/images/todolist.png',
         alt:'todolist',
         title:'Todo List Intermediate Project',
       
@@ -56,7 +56,7 @@ const HomeApi=[
     },
     {
         id:4,
-        image:'images/advtodolist.png',
+        image:'/images/advtodolist.png',
         alt:'advtodolist',
         title:'Todo List Adv',
       
@@ -71,7 +71,7 @@ const HomeApi=[
     },
     {
         id:5,
-        image:'images/weather.png',
+        image:'/images/weather.png',
         alt:'advtodolist',
         title:'Open Weather Real Api Project',
       
@@ -88,7 +88,7 @@ const HomeApi=[
     },
     {
         id:6,
-        image:'images/incdecbtn.png',
+        image:'/images/incdecbtn.png',
         alt:'advtodolist',
         title:'Increment Decrement Class Component Project',
       
@@ -103,7 +103,7 @@ const HomeApi=[
     },
     {
         id:7,
-        image:'images/todolist.png',
+        image:'/images/todolist.png',
         alt:'advtodolist',
         title:'Todo List Class Component Project',
       
@@ -117,7 +117,7 @@ const HomeApi=[
     },
     {
         id:8,
-        image:'images/weather.png',
+        image:'/images/weather.png',
         alt:'advtodolist',
         title:'Weather Class Component Project',
         details:[
@@ -130,7 +130,7 @@ const HomeApi=[
     },
     {
         id:9,
-        image:'images/formfirebase.PNG',
+        image:'/images/formfirebase.PNG',
         alt:'advtodolist',
         title:'Contact Us Firebase',
         details:[
@@ -146,4 +146,3 @@ const HomeApi=[
     
 ]
 export default HomeApi;
-// export default WhatLearn;

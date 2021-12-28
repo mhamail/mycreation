@@ -12,7 +12,7 @@ const Home = () => {
                     const { id, image, alt, title, btnl, btn2, btn } = item;
                     return <div className="row mb-3" key={id}>
                         <div className="col-12 col-lg-6 imageSection">
-                            <img src='image' alt={alt} className="img-fluid img" />
+                            <img src={process.env.PUBLIC_URL + image} alt={alt} className="img-fluid img" />
                         </div>
                         <div className="col-12 col-lg-6 writeSection">
                             <h2>{title}</h2>
