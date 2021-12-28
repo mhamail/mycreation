@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 
 import RestuMain from './Restaurant/RestuMain'

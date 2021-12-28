@@ -2,7 +2,8 @@
 const HomeApi=[
     {
         id:1,
-        image:'images/restaurant.jpg',
+        image:'/images/restaurant.jpg',
+        alt:'restaurant',
         title:'Simple Restaurant Menu Project',
       
         details:[
@@ -20,6 +21,7 @@ const HomeApi=[
     {
         id:2,
         image:'images/incdecbtn.png',
+        alt:'incdecbtn',
         title:'Icre-Decrement Project',
         details:[
             {info:'Ui Bootstrap' },
@@ -34,6 +36,7 @@ const HomeApi=[
     {
         id:3,
         image:'images/todolist.png',
+        alt:'todolist',
         title:'Todo List Intermediate Project',
       
         details:[
@@ -54,6 +57,7 @@ const HomeApi=[
     {
         id:4,
         image:'images/advtodolist.png',
+        alt:'advtodolist',
         title:'Todo List Adv',
       
         details:[
@@ -68,6 +72,7 @@ const HomeApi=[
     {
         id:5,
         image:'images/weather.png',
+        alt:'advtodolist',
         title:'Open Weather Real Api Project',
       
         details:[
@@ -84,6 +89,7 @@ const HomeApi=[
     {
         id:6,
         image:'images/incdecbtn.png',
+        alt:'advtodolist',
         title:'Increment Decrement Class Component Project',
       
         details:[
@@ -98,6 +104,7 @@ const HomeApi=[
     {
         id:7,
         image:'images/todolist.png',
+        alt:'advtodolist',
         title:'Todo List Class Component Project',
       
         details:[
@@ -111,6 +118,7 @@ const HomeApi=[
     {
         id:8,
         image:'images/weather.png',
+        alt:'advtodolist',
         title:'Weather Class Component Project',
         details:[
             {info:'this.setState' },
@@ -123,6 +131,7 @@ const HomeApi=[
     {
         id:9,
         image:'images/formfirebase.PNG',
+        alt:'advtodolist',
         title:'Contact Us Firebase',
         details:[
             {info:'Functional Component'},
