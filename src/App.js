@@ -13,7 +13,8 @@ import Contactus from './ContactusCSS-Firebase/Contactus'
 import IncDec from './ClassComponent/IncDec/IncDec'
 import ClassTodoList from './ClassComponent/TodoList/ClassTodoList'
 import ClassWeatherMain from './ClassComponent/WeatherRealApi/ClassWeatherMain'
-
+// use reducer complete detail
+import UserReducerComplete from './useReducer/Index' 
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
             <Route exact path="/incdec" element={<IncDec/>}/>
             <Route exact path="/classtodolist" element={<ClassTodoList/>}/>
             <Route exact path="/classweathermain" element={<ClassWeatherMain/>}/>
+            <Route exact path="/userReducerComplete" element={<UserReducerComplete/>}/>
         </Routes>
         </>
     )

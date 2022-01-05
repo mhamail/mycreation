@@ -143,6 +143,20 @@ const HomeApi=[
         btn:'Go to Contact Us ',
         btn2:'',
     },
-    
+    {
+        id:10,
+        image:'/images/advtodolist.png',
+        alt:'todolist',
+        title:'Knowledge Use Reducer',
+        details:[
+            {info:'Functional Component'},
+            {info:'beauty css style' },
+            {info:'firebase real time database'},
+            {info:'store data on firebase'},
+        ],
+        btnl:"/userReducerComplete",
+        btn:'Use Reducer ',
+        btn2:'',
+    },
 ]
 export default HomeApi;
