@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.gridder{
+    height: 100vh;
+    width: 100%;
+    background-color: #9366FF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+}
+.mainDiv{
+    justify-self: center;
+    display: grid;
+    grid-gap: 20px;
+    background-color: #3F3260;
+}
+.mainDiv input{
+    background-color: #1B6F89;
+    color: #fff;
+}
+.List ol li{
+    background-color: #C007AD;
+    margin-top: 10px;
+    padding: 5px;
+    width:  100%;
+    color: #fff;
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+.order{
+    position: relative;
+}
+.font{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.font:hover{
+    width: 25px;
+    height: 25px;
+}
+.button{
+    justify-self: center;
+}
