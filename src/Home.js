@@ -1,5 +1,5 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import HomeApi from './HomeApi'
 
 
@@ -24,9 +24,9 @@ const Home = () => {
                                 })}
 
                             </ul>
-                            {/* <NavLink to={btnl}>{btn}</NavLink> */}
-                            <a href={btnl}>{btn}</a>
-                            {btn2 == '' ? '' : <a href={btn2}><br /> With use reducer</a>}
+                            <NavLink to={btnl}>{btn}</NavLink>
+                            {/* <a href={btnl}>{btn}</a> */}
+                            {btn2 == '' ? '' : <NavLink to={btn2}><br /> With use reducer</NavLink>}
                         </div>
                     </div>
                 })}
