@@ -1,0 +1,15 @@
+
+.firebaseGrid{
+    width: 100%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center ;
+    align-items: center;
+    
+}
+.firebaseFlex{
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-around;
+}

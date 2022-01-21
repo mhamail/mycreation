@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firebase-container{
+    width: 100%;
+    height: 100vh;
+}
+.FirebaseForm{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.firebase_sign{
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-around;
+}

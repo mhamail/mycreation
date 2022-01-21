@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.hocmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userList{
+    background-color: black;
+    width:auto;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+
+    h4{
+        color: white;
+        text-align: center;
+    }
+
+}
+.list{
+    background: blanchedalmond;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+}
+
+.hocloading{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}

@@ -9,7 +9,7 @@ const Home = () => {
             <h1 className="text-center text-light">Beginner Projects To Learn React Native</h1>
             <div className="container-fluid col-11 mx-auto pt-5">
                 {HomeApi.map((item) => {     //Map Function Call from Home Api
-                    const { id, image, alt, title, btnl, btn2, btn } = item;
+                    const { id, image, alt, title, btn1, btn2, btn } = item;
                     return <div className="row mb-3" key={id}>
                         <div className="col-12 col-lg-6 imageSection">
                             <img src={process.env.PUBLIC_URL + image} alt={alt} className="img-fluid img" />
@@ -24,8 +24,8 @@ const Home = () => {
                                 })}
 
                             </ul>
-                            <NavLink to={btnl}>{btn}</NavLink>
-                            {/* <a href={btnl}>{btn}</a> */}
+                            <NavLink to={btn1}>{btn}</NavLink>
+                            {/* <a href={btn1}>{btn}</a> */}
                             {btn2 == '' ? '' : <NavLink to={btn2}><br /> With use reducer</NavLink>}
                         </div>
                     </div>
