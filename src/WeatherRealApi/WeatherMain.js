@@ -5,6 +5,7 @@ import Widget from './Widget'
 const WeatherMain = () => {
     const[inputValue,setInputValue]=useState('islamabad');
     const[tempInfo,setTempInfo]=useState({});
+    
     const getWeatherInfo=async()=>{
         try{
             let url=`http://api.penweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&appid=513b47ccada8f49401b857063b15165e`;

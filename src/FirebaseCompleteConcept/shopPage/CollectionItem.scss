@@ -1,0 +1,58 @@
+.collection_preview{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.collection_item{
+    width: 23%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    .image{
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+    }
+    .customButton{
+        position: absolute;
+        width: 80%;
+        opacity: 0.7;
+        left: 0;
+        margin: auto;
+        right: 0;
+        top: 255px;
+        display: none;
+    }
+    &:hover{
+        .image{
+            opacity: 0.8;
+        }
+        .customButton{
+            display: block;
+            opacity: 0.85;
+        }
+    }
+    .collection_footer{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    .name{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .price{
+        width: 10%;
+    }
+}

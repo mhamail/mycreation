@@ -1,0 +1,28 @@
+.headerss{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    position: relative;
+
+    .optionss{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .link{
+            padding: 10px 15px;
+            margin:10px;
+            color: black;
+            background: #357ae8;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover{
+                color:#357ae8 ;
+                background: black;
+            }
+        }
+    }
+}
